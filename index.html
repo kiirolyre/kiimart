@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kiimart Showcase</title>
+  <!-- Tailwind CSS via CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    /* Ultra-round corners */
+    .rounded-extra { border-radius: 3rem; }
+    
+  </style>
+</head>
+<body class="min-h-screen bg-gradient-to-br from-[#889acd] via-[#99c9d5] to-[#8bb0dc] font-black text-gray-800 p-8">
+  <main class="space-y-12">
+    <!-- Intro Section -->
+    <section class="text-center">
+      <h1 class="text-6xl text-white drop-shadow-md">Welcome to Kiimart</h1>
+      <p class="mt-4 text-2xl max-w-2xl mx-auto text-white">
+        A cozy, curated art market celebrating handmade, playful, and nostalgic creations — with a soft spot for early-career artists and hobbyists.
+      </p>
+      <a href="#" class="inline-block mt-6 bg-[#8bb0dc] hover:bg-[#889acd] text-white px-6 py-3 text-lg rounded-3xl transition">
+        Follow us on Instagram
+      </a>
+
+      <!-- Info Boxes -->
+      <div class="mt-8 flex justify-center space-x-10">
+        <!-- Date Box -->
+        <div class="relative overflow-visible w-80 h-48 rounded-extra border-8 border-[#99c9d5] bg-[#ebeeee] shadow-lg flex flex-col items-center justify-start pt-8 px-6 transform transition hover:scale-105">
+          <h3 class="text-2xl text-[#889acd]">Date</h3>
+          <p class="text-xl text-gray-800 mt-1">Saturday 7th Feb 2025</p>
+          <p class="text-base text-gray-500 mt-1">10am – 4pm</p>
+        </div>
+        <!-- Location Box -->
+        <div class="relative overflow-hidden w-80 h-48 rounded-extra border-8 border-[#99c9d5] bg-[#ebeeee] shadow-lg flex flex-col items-center justify-start pt-8 px-6 transform transition hover:scale-105 box-gloss">
+          <h3 class="text-2xl text-[#889acd]">Location</h3>
+          <p class="text-xl text-gray-800 mt-1">Marrickville Town Hall</p>
+          <p class="text-base text-gray-500 mt-1">Only 20 minute walk from Sydenham, or take a direct bus!</p>
+        </div>
+        <!-- Artist Applications Box -->
+        <div class="relative overflow-visible w-80 h-48 rounded-extra border-8 border-[#99c9d5] bg-[#ebeeee] shadow-lg flex flex-col items-center justify-start pt-8 px-6 transform transition hover:scale-105 box-gloss">
+          <!-- First Mii Character Overlay -->
+          <img src="images/mii_sit.png" alt="Mii character" class="absolute bottom-12 left-40 w-36 h-36 z-50 transform -translate-y-3/4">
+          <h3 class="relative text-2xl text-[#889acd]">Artist Applications</h3>
+          <p class="relative text-xl text-gray-800 mt-1">Opening soon!</p>
+        </div>
+      </div>
+    </section>
+
+    
+
+    
+<br><br><br><br>
+
+    <!-- Content Sections -->
+    <section class="grid md:grid-cols-2 gap-8">
+      <!-- Our Mission with second Mii behind -->
+      <div class="relative overflow-visible">
+        <!-- Second Mii Character Behind -->
+        <img src="images/mii_wave.gif" alt="Mii character" class="absolute top-0 left-4 w-23 h-36 -translate-y-3/4 -z-10">
+        <div class="bg-[#ebeeee] shadow-2xl rounded-3xl p-8 transform transition hover:scale-105">
+          <h2 class="text-2xl text-[#889acd] mb-4">Our Mission</h2>
+          <p class="text-lg text-gray-800 leading-relaxed">
+            Kiimart is here to support creatives who are just starting out — whether you’re tabling for the first time or fitting your art around work or study. We prioritize original, handmade works and community-driven vibes.
+          </p>
+        </div>
+      </div>
+      <!-- Market Vision -->
+      <div class="bg-[#ebeeee] shadow-2xl rounded-3xl p-8 transform transition hover:scale-105">
+        <h2 class="text-2xl text-[#889acd] mb-4">Market Vision</h2>
+        <p class="text-lg text-gray-800 leading-relaxed">
+          We aim to create a relaxed and welcoming event with free public entry, accessible venue layouts, and a focus on nostalgic, playful aesthetics. Think beaded trinkets, zines, textiles, stickers, keychains and more!
+        </p>
+      </div>
+      <!-- Preview the Vibe -->
+      <div class="md:col-span-2 bg-[#ebeeee] shadow-2xl rounded-3xl p-8 transform transition hover:scale-105">
+        <h2 class="text-2xl text-[#889acd] mb-4">Preview the Vibe</h2>
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-6 mt-4">
+          <img src="sample1.jpg" alt="Sample 1" class="rounded-2xl border-2 border-[#99c9d5] shadow-lg transform transition hover:scale-105">
+          <img src="sample2.jpg" alt="Sample 2" class="rounded-2xl border-2 border-[#99c9d5] shadow-lg transform transition hover:scale-105">
+          <img src="sample3.jpg" alt="Sample 3" class="rounded-2xl border-2 border-[#99c9d5] shadow-lg transform transition hover:scale-105">
+          <img src="sample4.jpg" alt="Sample 4" class="rounded-2xl border-2 border-[#99c9d5] shadow-lg transform transition hover:scale-105">
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
