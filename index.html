@@ -13,6 +13,10 @@
   </style>
 </head>
 <body class="min-h-screen bg-gradient-to-br from-[#889acd] via-[#99c9d5] to-[#8bb0dc] font-black text-gray-800 p-8">
+
+    <audio id="click-sound" src="images/click.mp3" preload="auto"></audio>
+
+
   <main class="space-y-12">
     <!-- Intro Section -->
     <section class="text-center">
@@ -20,9 +24,11 @@
       <p class="mt-4 text-xl max-w-2xl mx-auto text-gray-800 drop-shadow-md">
         A nostalgic little art market floating in the Kiiverse... Celebrating handmade, playful, and unique creations from over 60 artists 𖹭
       </p>
-      <a href="#" class="inline-block mt-6 bg-[#8bb0dc] hover:bg-[#889acd] text-white px-6 py-3 text-lg rounded-3xl transition">
+      <a href="https://www.instagram.com/kiirolyre/" class="inline-block mt-6 bg-[#8bb0dc] hover:bg-[#889acd] text-white px-6 py-3 text-lg rounded-3xl transition">
+
         Instagram ⋆. 𐙚 ˚
-      </a>
+     
+        </a>
 
       <!-- Info Boxes -->
       <div class="mt-8 flex flex-wrap justify-center sm:space-x-10 space-x-0 sm:space-y-0 space-y-6">
@@ -108,6 +114,17 @@
   </div>
 
   <br>
+
+    <!-- Click Sound Script -->
+  <script>
+    const clickSound = document.getElementById('click-sound');
+    document.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', () => {
+        clickSound.currentTime = 0;
+        clickSound.play();
+      });
+    });
+  </script>
 
   </main>
 </body>
