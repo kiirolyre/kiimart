@@ -621,6 +621,8 @@ meow
 meow
 meow
 meow
+
+
 meow
 meow
 meow
@@ -630,13 +632,26 @@ meow
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>KiiMart</title>
+
+  <!-- Import Itim Thai font -->
+  <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+
+
   <!-- Tailwind CSS via CDN -->
   <script src="https://cdn.tailwindcss.com"></script>
+
   <style>
+
+    /* Itim as a custom class */
+    .font-itim {
+      font-family: 'Itim', cursive;
+    }
+
     /* Ultra-round corners */
     .rounded-extra { border-radius: 3rem; }
     
   </style>
+
 </head>
 
 <link rel="icon" href="/kiimart/favicon.ico" type="image/x-icon"> 
@@ -649,9 +664,9 @@ meow
   <main class="space-y-12">
     <!-- Intro Section -->
     <section class="text-center">
-      <h1 class="text-6xl text-white drop-shadow-md">Welcome to ✧KiiMart!✧</h1>
-      <p class="mt-4 text-xl max-w-2xl mx-auto text-gray-800 drop-shadow-md">
-        A nostalgic little art market floating in the Kiiverse... Celebrating handmade, playful, and unique creations from over 60 artists 𖹭
+      <h1 class="text-6xl text-white drop-shadow-md font-itim">Welcome to ⋆KiiMart! ⭑★ ⋆ ✧</h1>
+      <p class="mt-4 text-xl max-w-2xl mx-auto text-gray-800 drop-shadow-md font-itim">
+        A nostalgic little art market floating in the Kiiverse... Celebrating handmade, playful, and unique creations from over 60 artists 𖹭♡ ♥
       </p>
       <a href="https://www.instagram.com/kii.mart/" class="inline-block mt-6 bg-[#8bb0dc] hover:bg-[#889acd] text-white px-6 py-3 text-lg rounded-3xl transition">
 
@@ -663,7 +678,7 @@ meow
       <div class="mt-8 flex flex-wrap justify-center sm:space-x-10 space-x-0 sm:space-y-0 space-y-6">
         <!-- Date Box -->
         <div class="relative overflow-visible w-80 h-48 rounded-extra border-8 border-[#99c9d5] bg-[#ebeeee] shadow-lg flex flex-col items-center justify-start pt-8 px-6 transform transition hover:scale-105">
-          <h3 class="text-2xl text-[#889acd]">Date</h3>
+          <h3 class="text-3xl text-[#889acd] font-itim">Date</h3>
           <p class="text-xl text-gray-800 mt-1">7th Feb 2026</p>
           <p class="text-base text-gray-500 mt-1">Saturday 10am–4pm </p>
         </div>
@@ -675,7 +690,7 @@ meow
          <!--  <img src="images/mii_si .png" alt="M" class="absolute top-0 right-9 sm:w-16 sm:h-16 w-12 h-15 z-50 sm:-translate-y-3/4 -translate-y-1/2"> -->
          <!--  <img src="images/mii_si .png" alt="M" class="absolute bottom-32 right-2 w-46 h-2 sm:w-16 sm:h-16 z-50 sm:-translate-y-3/4 -translate-y-1/2"> -->
           <img src="images/mii_sit.png" alt="Mii character" width="119" height="119" style="position:absolute; top:0; left:12rem; transform: translateY(-86%); z-index:50;">
-          <h3 class="relative text-2xl text-[#889acd]">Artist Applications</h3>
+          <h3 class="text-3xl text-[#889acd] font-itim">Artist Applications</h3>
           <p class="relative text-xl text-gray-800 mt-1">Opening Soon... </p>
           <!-- <p class="text-base text-gray-500 mt-1"><a href="https://forms.gle/tZy6X7ibvGndmnbz5" target="_blank" rel="noopener noreferrer" class="underline text-[#889acd]">Sign up to be notified!</a> <span><(ˊᗜˋ*)و</span></p> -->
           <p class="text-base text-gray-500 mt-1"><a href="https://forms.gle/tZy6X7ibvGndmnbz5" target="_blank" rel="noopener noreferrer" class="underline text-gray-500">Sign up to be notified!</a> <span><(ˊᗜˋ*)و</span></p>
@@ -685,7 +700,7 @@ meow
 
         <!-- Location Box -->
         <div class="relative overflow-visible w-80 h-48 rounded-extra border-8 border-[#99c9d5] bg-[#ebeeee] shadow-lg flex flex-col items-center justify-start pt-8 px-6 transform transition hover:scale-105">
-          <h3 class="text-2xl text-[#889acd]">Location</h3>
+          <h3 class="text-3xl text-[#889acd] font-itim">Location</h3>
           <p class="text-xl text-gray-800 mt-1">Marrickville Town Hall</p>
           <p class="text-base text-gray-500 mt-1">Only 20 minute walk from Sydenham, or take a direct bus!</p>        
         </div>
@@ -704,7 +719,7 @@ meow
         <!-- Second Mii Behind -->
         <img src="images/mii_wave.gif" alt="Mii character" class="absolute top-0 left-4 w-23 h-36 -translate-y-3/4 -z-10">
         <div class="bg-[#ebeeee] shadow-2xl rounded-3xl p-8 transform transition hover:scale-105">
-          <h2 class="text-2xl text-[#889acd] mb-4">Market Mission</h2>
+          <h2 class="text-2xl text-[#889acd] mb-4 font-itim">Market Mission</h2>
           <p class=" text-gray-800 leading-relaxed">
             KiiMart aims to create a welcoming space where artists can connect, share their work, and have fun! This market has FREE public entry for everyone, accessible layouts, and is inspired by early-2000s digital design... Think Miiverse and Nintendo ;〕! We embrace under-the-radar creators bringing new perspectives, so you'll find handmade treasures you won’t get anywhere else.
           </p>
@@ -712,7 +727,7 @@ meow
       </div>
       <!-- About the Host -->
       <div class="bg-[#ebeeee] shadow-2xl rounded-3xl p-8 transform transition hover:scale-105">
-        <h2 class="text-2xl text-[#889acd] mb-4">About the Host</h2>
+        <h2 class="text-2xl text-[#889acd] mb-4 font-itim">About the Host</h2>
         <p class="text-gray-800 leading-relaxed">
             Hello! I’m the one-person team behind KiiMart. I like to make art, jewelry, and beaded trinkets.  <span class="whitespace-nowrap">☆૮꒰ˊᗜˋ* ꒱ა</span>  My involvement in the Sydney art community extends to running stalls, attending or volunteering at other art markets, and also selling my art online. KiiMart is my passion project— bringing together everything I love about art, tech, and markets!
         </p>
@@ -738,7 +753,7 @@ meow
   <div class="bg-[#8bb0dc] shadow-2xl p-5 transform transition hover:scale-105">
 
     <img src="images/mii_sleep.gif" alt="Mii character" class="absolute top-0 right-1 w-23 h-36 -translate-y-3/4 -z-10">
-    <p class="text-xl text-black-500 mt-1">Any comments, questions or feedback? <br> <a href="https://forms.gle/tZy6X7ibvGndmnbz5" target="_blank" rel="noopener noreferrer" class="underline" >Submit it here!</a> <span class="whitespace-nowrap">ദ്ദി´ ˘ `)✧</span> </p>
+    <p class="text-xl text-black-500 mt-1 font-itim">Any comments, questions or feedback? <br> <a href="https://forms.gle/tZy6X7ibvGndmnbz5" target="_blank" rel="noopener noreferrer" class="underline" >Submit it here!</a> <span class="whitespace-nowrap">ദ്ദി´ ˘ `)✧</span> </p>
  
   </div>
 
